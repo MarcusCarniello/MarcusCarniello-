@@ -4,16 +4,15 @@
   --borda: #222222;
   --texto: #e5e5e5;
   --texto-suave: #9a9a9a;
-  --verde: #22c55e;   
+  --verde: #22c55e;        
 }
-
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 body {
@@ -42,7 +41,6 @@ a {
   color: var(--verde);
 }
 
-
 .titulo {
   font-size: 1.8em;
   margin-bottom: 24px;
@@ -50,9 +48,8 @@ a {
   padding-left: 12px;
 }
 
-
 header {
-  position: sticky;   
+  position: sticky;      
   top: 0;
   background-color: rgba(5, 5, 5, 0.95);
   border-bottom: 1px solid var(--borda);
@@ -79,7 +76,6 @@ nav a {
 nav a:hover {
   color: var(--verde);
 }
-
 
 .inicio {
   display: flex;
@@ -111,10 +107,9 @@ nav a:hover {
   height: 220px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: 60% 35%;  
+  object-position: 60% 35%;   
   border: 4px solid var(--verde);
 }
-
 
 .botao {
   display: inline-block;
@@ -136,7 +131,6 @@ nav a:hover {
 .botao:hover {
   opacity: 0.8;
 }
-
 
 .destaques {
   display: flex;
@@ -166,7 +160,6 @@ nav a:hover {
   color: var(--texto-suave);
 }
 
-
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -183,7 +176,6 @@ nav a:hover {
   font-size: 0.9em;
 }
 
-
 .badges {
   display: flex;
   flex-wrap: wrap;
@@ -194,7 +186,6 @@ nav a:hover {
 .badges img {
   height: 28px;
 }
-
 
 .projeto {
   background-color: var(--card);
@@ -210,6 +201,16 @@ nav a:hover {
 
 .projeto h3 {
   margin-top: 0;
+}
+
+.projeto h4 {
+  color: var(--verde);
+  margin-bottom: 6px;
+}
+
+.projeto ul {
+  margin-top: 0;
+  padding-left: 20px;
 }
 
 .status {
